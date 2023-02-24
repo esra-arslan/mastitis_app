@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%-include('./inc/head')%>
+  <%-include('./inc/import')%>
+  <%-include('./inc/css')%>
+</head>
+
+<body>
+  <div class="container" >
+    <div class="row">
+    <form class="form"  action="" method="post">
+      <h1 class="log">Giriş Yap</h1>
+    
+      <div class="form-group">
+      <input type="email"  name ="email" required >
+      <span></span>
+        <label for="name" >E-posta</label>
+    </div>
+      <div class="form-group">
+      <input type="password"  name ="password" required >
+      <span></span>
+        <label for="name" >Şifre</label>
+    </div>
+      
+      <input type="submit" value="Giriş Yap"></input>
+      <div class="singUp">
+        Üye değil misin? <a href="/register">Üye Ol</a>
+   </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+
