@@ -14,9 +14,6 @@ const axios = require('axios')
 
 
 
-
-
-
 var app = express()
 // veri tabanı bağlantısı
 mongoose.set('strictQuery', true);
@@ -39,7 +36,6 @@ app.use('/home',requireAuth, homeRoutes)
 
 
 app.get('*',checkUser)
-
 
 
 app.get('/register', (_req, res) => {

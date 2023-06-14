@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 const mastitisShema = new mongoose.Schema({
-    farm: {
+   farm: {
       type: String,
       require: true
    },
@@ -30,7 +30,11 @@ const mastitisShema = new mongoose.Schema({
       type: Number,
       require: true
    },
-   
+   createdTime: {
+      type: Date,
+      require: true
+   },
+
 });
 
 

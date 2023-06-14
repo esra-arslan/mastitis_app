@@ -1,4 +1,4 @@
-//doğrudan home sayfasına bağlantı ypılmasın diye olşuturulan kod satırları
+//doğrudan home sayfasına bağlantı yapılmasın diye olşuturulan kod satırları
 const jwt = require('jsonwebtoken');
 const User = require('../models/users');
 
